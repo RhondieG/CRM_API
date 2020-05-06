@@ -1,0 +1,32 @@
+{
+  "name": "crm_api",
+  "version": "1.0.0",
+  "description": "Vehicle Diary",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RhondieG/CRM_API.git"
+  },
+  "author": "Rhonda Gilliard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RhondieG/CRM_API/issues"
+  },
+  "homepage": "https://github.com/RhondieG/CRM_API#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.12",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
